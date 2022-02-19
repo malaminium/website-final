@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.right-side {
+   display: flex;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right:  .07px;
+    font-size: 8em;   
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right:  .07px;
+    font-size: 2em;   
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+.brad a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.brad a:hover {
+    color: black;
+}
+
+.sContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
+
+.videowrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.braid a{
+    display: flex;
+    font-size: 32px;
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.braid a:hover {
+    color: black;
+}
+
+video {
+    width: 100%;
+}
+
